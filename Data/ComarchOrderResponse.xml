@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document-OrderResponse>
+    <OrderResponse-Header>
+        <OrderResponseNumber>1234567890</OrderResponseNumber>
+        <OrderResponseDate>2005-05-24</OrderResponseDate>
+        <ExpectedDeliveryDate>2005-05-30</ExpectedDeliveryDate>
+        <ExpectedDeliveryTime>09:00</ExpectedDeliveryTime>
+        <OrderNumber>0123456789</OrderNumber>
+        <OrderDate>2005-05-23</OrderDate>
+        <MessageType>OR</MessageType>
+        <ResponseType>29</ResponseType>
+        <IncompleteRealizationReason>Text</IncompleteRealizationReason>
+        <Remarks>Remarks_1</Remarks>
+        <Currency>GBP</Currency>
+    </OrderResponse-Header>
+    <OrderResponse-Parties>
+        <Buyer>
+            <ILN>5900009920000</ILN>
+            <TaxID>111122223344</TaxID>
+            <Name>Name_1</Name>
+            <StreetAndNumber>Przemysłowa 5</StreetAndNumber>
+            <CityName>Kraków</CityName>
+            <PostalCode>30-009</PostalCode>
+            <Country>PL</Country>
+        </Buyer>
+        <Invoicee>
+            <ILN>5900009920000</ILN>
+            <TaxID>111122223344</TaxID>
+            <Name>Name_1</Name>
+            <StreetAndNumber>Przemysłowa 5</StreetAndNumber>
+            <CityName>Kraków</CityName>
+            <PostalCode>30-009</PostalCode>
+            <Country>PL</Country>
+        </Invoicee>
+        <Seller>
+            <ILN>8594050810006</ILN>
+            <TaxID>111122223344</TaxID>
+            <CodeByBuyer>0001</CodeByBuyer>
+            <Name>Name_1</Name>
+            <StreetAndNumber>Przemysłowa 5</StreetAndNumber>
+            <CityName>Kraków</CityName>
+            <PostalCode>30-009</PostalCode>
+            <Country>PL</Country>
+        </Seller>
+        <DeliveryPoint>
+            <ILN>5900009920000</ILN>
+            <Name>Name_1</Name>
+            <StreetAndNumber>Przemysłowa 5</StreetAndNumber>
+            <CityName>Kraków</CityName>
+            <PostalCode>30-009</PostalCode>
+            <Country>PL</Country>
+        </DeliveryPoint>
+        <ShipFrom>
+            <ILN>8594050810006</ILN>
+            <Name>Name_1</Name>
+            <StreetAndNumber>Przemysłowa 5</StreetAndNumber>
+            <CityName>Kraków</CityName>
+            <PostalCode>30-009</PostalCode>
+            <Country>PL</Country>
+        </ShipFrom>
+        <UltimateCustomer>
+            <ILN>5900009920000</ILN>
+            <Name>Name_1</Name>
+            <StreetAndNumber>Przemysłowa 5</StreetAndNumber>
+            <CityName>Kraków</CityName>
+            <PostalCode>30-009</PostalCode>
+            <Country>PL</Country>
+        </UltimateCustomer>
+        <OrderedBy>
+            <ILN>1111111111111</ILN>
+            <TaxID>111122223344</TaxID>
+            <Name>ABC</Name>
+            <StreetAndNumber>Handlowa 3</StreetAndNumber>
+            <CityName>Kraków</CityName>
+            <PostalCode>30-519</PostalCode>
+            <Country>PL</Country>
+        </OrderedBy>
+        <Sender>
+            <ILN>1111111111111</ILN>
+            <TaxID>111122223344</TaxID>
+            <Name>ABC</Name>
+            <StreetAndNumber>Przemysłowa 5</StreetAndNumber>
+            <CityName>Kraków</CityName>
+            <PostalCode>30-009</PostalCode>
+            <Country>PL</Country>
+        </Sender>
+        <Receiver>
+            <ILN>1111111111111</ILN>
+            <TaxID>111122223344</TaxID>
+            <Name>ABC</Name>
+            <StreetAndNumber>Przemysłowa 5</StreetAndNumber>
+            <CityName>Kraków</CityName>
+            <PostalCode>30-009</PostalCode>
+            <Country>PL</Country>
+        </Receiver>
+    </OrderResponse-Parties>
+    <OrderResponse-Lines>
+        <Line>
+            <Line-Item>
+                <LineNumber>1</LineNumber>
+                <OrderLineNumber>2</OrderLineNumber>
+                <EAN>1111111111111</EAN>
+                <LineItemStatus>5</LineItemStatus>
+                <SupplierItemCode>123456</SupplierItemCode>
+                <BuyerItemCode>123456</BuyerItemCode>
+                <PackageEAN>11111111111111</PackageEAN>
+                <ItemDescription>Item Description</ItemDescription>
+                <OrderedQuantity>2.000</OrderedQuantity>
+                <QuantityToBeDelivered>2.000</QuantityToBeDelivered>
+                <OrderedUnitPacksize>1.000</OrderedUnitPacksize>
+                <QuantityDifference>2.000</QuantityDifference>
+                <UnitOfMeasure>PCE</UnitOfMeasure>
+                <OrderedUnitNetPrice>50.00</OrderedUnitNetPrice>
+                <OrderCurrency>PLN</OrderCurrency>
+                <AvailableStock>2.000</AvailableStock>
+                <Discount>20.00</Discount>
+                <TaxRate>22.00</TaxRate>
+                <TaxCategoryCode>S</TaxCategoryCode>
+                <ExpectedDeliveryDate>2005-05-30</ExpectedDeliveryDate>
+                <ExpectedDeliveryTime>09:00</ExpectedDeliveryTime>
+                <ExpirationDate>1999-09-09</ExpirationDate>
+                <PromotionReference>260</PromotionReference>
+                <PackageNumber>1.000</PackageNumber>
+                <PackageType>CT</PackageType>
+                <Remarks>RemarksText</Remarks>
+            </Line-Item>
+        </Line>
+    </OrderResponse-Lines>
+    <OrderResponse-Summary>
+        <TotalLines>1</TotalLines>
+        <TotalOrderedAmount>2.000</TotalOrderedAmount>
+    </OrderResponse-Summary>
+</Document-OrderResponse>
